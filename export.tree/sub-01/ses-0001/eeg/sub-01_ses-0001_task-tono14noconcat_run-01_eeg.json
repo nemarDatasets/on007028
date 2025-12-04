@@ -1,0 +1,9 @@
+{
+    "TaskDescription": "tono14no",
+    "TaskName": "tono14noconcat",
+    "Manufacturer": "Brainstorm",
+    "SamplingFrequency": 20000,
+    "PowerLineFrequency": 60,
+    "EEGReference": "Craniotomy near C3",
+    "SoftwareFilters": "n/a"
+}
