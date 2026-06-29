@@ -1,28 +1,79 @@
 {
   "version": "2.0",
-  "dataset_id": "on007028",
-  "source": "openneuro",
-  "source_id": "ds007028",
+  "pipeline_stage": "validated",
   "title": "Auditory Cortex Macaque Monkey DISC Data",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yoshinao Kajikawa": {},
     "Charles Schroeder": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007028.v1.0.0",
       "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007028",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007028",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.on007028",
+      "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "14.9 GB (11 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset contains electrophysiological recordings from the auditory cortex of macaque monkeys, acquired using multi-channel electrode arrays. The data represents raw neural activity and provides a valuable resource for investigating the neural mechanisms underlying auditory cortical organization in non-human primates. This is a NEMAR mirror of the OpenNeuro dataset ds007028.",
+  "keywords": [
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "auditory cortex"
+    },
+    {
+      "term": "macaque"
+    },
+    {
+      "term": "multi-electrode arrays"
+    },
+    {
+      "term": "neural recording"
+    },
+    {
+      "term": "DISC"
+    },
+    {
+      "term": "primate"
+    },
+    {
+      "term": "cortical organization"
+    }
+  ],
+  "source_hash": "9fce53b4a7d0fdb27105add1de3282cd8807ac763c6ef663e8f2c9255c44aa13"
 }
