@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory Cortex Macaque Monkey DISC Data",
-  "description": "This dataset contains intracranial electrophysiological recordings from the auditory cortex of macaque monkeys, collected to investigate neural responses in the auditory system. The data were acquired by Kajikawa and Schroeder and are mirrored on NEMAR from OpenNeuro under the DISC data collection.",
+  "description": "Electrophysiological recordings from the auditory cortex of macaque monkeys, contributed by Kajikawa and Schroeder. The dataset is organized in BIDS format and mirrored on NEMAR from its original OpenNeuro deposit (ds007028).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,9 +11,7 @@
   },
   "keywords": [
     {
-      "term": "Auditory Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001303"
+      "term": "auditory cortex"
     },
     {
       "term": "macaque"
@@ -22,13 +20,10 @@
       "term": "electrophysiology"
     },
     {
-      "term": "intracranial recording"
+      "term": "EEG"
     },
     {
-      "term": "Lentiviruses, Primate",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017958"
+      "term": "non-human primate"
     }
   ],
   "related_identifiers": [
@@ -46,11 +41,6 @@
       "identifier": "https://nemar.org/dataset/on007028",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.82901/nemar.on007028",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
     }
   ],
   "resource_type_general": "Dataset",
@@ -59,7 +49,7 @@
     "eeg"
   ],
   "sizes": [
-    "14.9 GB (11 files)"
+    "13.86 GB (11 files)"
   ],
   "formats": [
     ".eeg",
